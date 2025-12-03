@@ -10,6 +10,8 @@
     "init-db": "node scripts/initDb.js",
     "import-data": "node scripts/importData.js",
     "generate-sample-data": "node scripts/generateSampleData.js",
+    "add-claim": "node scripts/addSampleClaim.js",
+    "add-custom-claim": "node scripts/addCustomClaim.js",
     "setup": "npm run init-db && npm run import-data",
     "setup-with-sample": "npm run generate-sample-data && npm run init-db && npm run import-data"
   },
