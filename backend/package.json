@@ -12,6 +12,7 @@
     "generate-sample-data": "node scripts/generateSampleData.js",
     "add-claim": "node scripts/addSampleClaim.js",
     "add-custom-claim": "node scripts/addCustomClaim.js",
+    "quick-claim": "node scripts/quickAddClaim.js",
     "setup": "npm run init-db && npm run import-data",
     "setup-with-sample": "npm run generate-sample-data && npm run init-db && npm run import-data"
   },
